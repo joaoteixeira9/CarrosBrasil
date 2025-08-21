@@ -1,0 +1,8 @@
+/* Diminui a altura do header */
+.navbar {
+    min-height: 80px;
+}
+
+.img-logo {
+    width: 150px;
+}
