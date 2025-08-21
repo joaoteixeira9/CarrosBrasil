@@ -1,10 +1,10 @@
 # Carros Brasil
 
-![GitHub repo size](https://img.shields.io/github/repo-size/joaoteixeira9/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/joaoteixeira9/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/joaoteixeira9/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joaoteixeira9/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joaoteixeira9/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/joaoteixeira9/CarrosBrasil?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/joaoteixeira9/CarrosBrasil?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/joaoteixeira9/CarrosBrasil?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joaoteixeira9/CarrosBrasil?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joaoteixeira9/CarrosBrasil?style=for-the-badge)
 
 <img src="public/img/logo3.png" alt="Logo carros brasil">
 
@@ -13,7 +13,6 @@
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
-
 - [ ] Cadastro de lojas e usuários.
 - [ ] Criar, modificar e excluir anúncios.
 - [ ] Adicionar fúncionários nas lojas existentes.
@@ -98,7 +97,8 @@ php artisan serve
 # O projeto estará disponível em:
 # http://localhost:8000
 ```
-# ✅ Comandos úteis
+## ✅ Comandos úteis
+
 ```bash
 # Limpar cache da aplicação
 php artisan cache:clear
