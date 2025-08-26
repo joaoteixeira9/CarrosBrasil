@@ -9,7 +9,6 @@
     <title>Carros Brasil</title>
 </head>
 <header class="position-relative">
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-2">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
