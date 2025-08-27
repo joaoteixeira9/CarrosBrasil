@@ -12,7 +12,7 @@
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
-- [ x ] Cadastro de usuários.
+- [x] Cadastro de usuários.
 - [ ] Criar, modificar e excluir anúncios.
 - [ ] Cadastro de lojas.
 - [ ] Adicionar fúncionários nas lojas existentes.
