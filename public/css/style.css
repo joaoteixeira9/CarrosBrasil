@@ -1,8 +1,8 @@
-/* Diminui a altura do header */
-.navbar {
-    min-height: 80px;
+:root{
+    --vermelho: #ff3131
 }
 
 .img-logo {
-    width: 150px;
+    width: 200px;
+    height: auto !important;
 }
