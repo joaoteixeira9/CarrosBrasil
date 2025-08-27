@@ -12,8 +12,9 @@
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
-- [ ] Cadastro de lojas e usuários.
+- [ x ] Cadastro de usuários.
 - [ ] Criar, modificar e excluir anúncios.
+- [ ] Cadastro de lojas.
 - [ ] Adicionar fúncionários nas lojas existentes.
 - [ ] Buscar por categorias, modelos, preços e etc.
 - [ ] Criação de leilões e lances.
