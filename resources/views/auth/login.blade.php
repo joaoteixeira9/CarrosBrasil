@@ -25,11 +25,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 bg-white p-5">
+                        <div class="col-md-6 bg-white p-5 d-flex flex-column justify-content-center">
                             <div class="w-100">
                                 <h2 class="fw-bold mb-1 text-dark">Acesse sua conta</h2>
                                 <p class="text-muted mb-4">Entre com suas credenciais para acessar o sistema.</p>
-                                 <x-validation-errors class="mb-4 text-danger" />
+                                <x-validation-errors class="mb-4 text-danger"/>
                                 <form action="{{ route('login') }}" method="POST">
                                     @csrf
                                     <div class="mb-3">
@@ -39,7 +39,6 @@
                                             <input type="email" class="form-control border-start-0" id="email" name="email" placeholder="Digite seu email" required>
                                         </div>
                                     </div>
-
                                     <div class="mb-4">
                                         <label for="password" class="form-label fw-semibold">Senha</label>
                                         <div class="input-group">
@@ -47,7 +46,6 @@
                                             <input type="password" class="form-control border-start-0" id="password" name="password" placeholder="Digite sua senha" required>
                                         </div>
                                     </div>
-
                                     <div class="d-grid gap-2 mb-4">
                                         <button type="submit" class="btn btn-danger btn-lg rounded-3 fw-semibold py-2">Entrar</button>
                                     </div>
@@ -55,24 +53,6 @@
                                 <div class="text-center mb-4">
                                     <span class="text-muted">Não tem conta?</span>
                                     <a href="/register" class="text-danger text-decoration-none fw-semibold ms-1">Registrar</a>
-                                </div>
-                                    
-                                <div class="d-flex align-items-center my-4">
-                                    <hr class="flex-grow-1">
-                                    <span class="px-3 text-muted">ou</span>
-                                    <hr class="flex-grow-1">
-                                </div>
-                                    
-                                <div class="text-center">
-                                    <p class="text-muted mb-3">Entre com redes sociais</p>
-                                    <div class="d-flex justify-content-center gap-3">
-                                        <a href="#">
-                                            <i class="bi bi-facebook fs-5"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="text-danger bi bi-google fs-5"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </div>
                         </div>

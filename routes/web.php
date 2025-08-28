@@ -1,10 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/dashboard', [HomeController::class, 'dashboard'])->middleware('auth');
+
+Route::get('/user/perfil/{id}', [UserController::class, 'show'])->middleware('auth');
 
 Route::middleware([
     'auth:sanctum',

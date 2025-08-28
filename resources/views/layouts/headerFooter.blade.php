@@ -19,11 +19,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <a href="/" class="img-logo">
+                    <a href="/dashboard" class="img-logo">
                         <img src="/img/logo3.png" alt="Logo Carros Brasil" class="img-fluid">
                     </a>
                     <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link fw-semibold" href="#">Carros</a></li>
                         <li class="nav-item"><a class="nav-link fw-semibold" href="#">Sobre</a></li>
                     </ul>
@@ -41,7 +41,7 @@
                                 {{ Auth::user()->name }}
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                                <li><a class="dropdown-item" href="/user/perfil/{{ Auth::id() }}">Perfil</a></li>
                                 <li><a class="dropdown-item" href="#">Configurações</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <form action="/logout" method="post">
