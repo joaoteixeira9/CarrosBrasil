@@ -4,7 +4,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/joaoteixeira9/CarrosBrasil?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/joaoteixeira9/CarrosBrasil?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joaoteixeira9/CarrosBrasil?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joaoteixeira9/CarrosBrasil?style=for-the-badge)
 
 <img src="public/img/logo3.png" alt="Logo carros brasil">
 
@@ -13,8 +12,9 @@
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
-- [ ] Cadastro de lojas e usuários.
+- [x] Cadastro de usuários.
 - [ ] Criar, modificar e excluir anúncios.
+- [ ] Cadastro de lojas.
 - [ ] Adicionar fúncionários nas lojas existentes.
 - [ ] Buscar por categorias, modelos, preços e etc.
 - [ ] Criação de leilões e lances.
