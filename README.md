@@ -13,6 +13,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 - [x] Cadastro de usuários.
+- [ ] Perfil do usuário (Visualizar, adicionar e modificar suas informações).
 - [ ] Criar, modificar e excluir anúncios.
 - [ ] Cadastro de lojas.
 - [ ] Adicionar fúncionários nas lojas existentes.
