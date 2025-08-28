@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/joaoteixeira9/CarrosBrasil?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/joaoteixeira9/CarrosBrasil?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/joaoteixeira9/CarrosBrasil?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joaoteixeira9/CarrosBrasil?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/github/issues/joaoteixeira9/CarrosBrasil?style=for-the-badge)
 
 <img src="public/img/logo3.png" alt="Logo carros brasil">
 
