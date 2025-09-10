@@ -8,6 +8,8 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/dashboard', [HomeController::class, 'dashboard'])->middleware('auth');
 
 Route::get('/user/perfil/{id}', [UserController::class, 'show'])->middleware('auth');
+Route::get('/user/edit/{id}', [UserController::class, 'edit'])->middleware('auth');
+Route::post('/user/confirm-edit/{id}', [UserController::class, 'update'])->middleware('auth');
 
 Route::middleware([
     'auth:sanctum',

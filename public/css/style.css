@@ -37,3 +37,10 @@
     transform: translateY(-10px);
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.3);
 }
+
+.img-perfil {
+    max-width: 200px;
+    min-width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
