@@ -35,7 +35,7 @@
             <input type="date" class="form-control is-invalid" placeholder="Data de Nascimento não informado" disabled>
             @endif
         </div>
-        <a href="/user/edit/{{ $usuario->id }}" class="btn btn-danger mt-3 w-25">Editar perfil</a>
+        <a href="/user/edit/{{ $usuario->id }}" class="btn btn-danger mt-3 w-50">Editar perfil</a>
     </div>
 </div>
 @endsection

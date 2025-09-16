@@ -23,8 +23,8 @@
                         <img src="/img/logo3.png" alt="Logo Carros Brasil" class="img-fluid">
                     </a>
                     <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link fw-semibold" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Carros</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="/dashboard">Home</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="/carros/compras/compras">Carros</a></li>
                         <li class="nav-item"><a class="nav-link fw-semibold" href="#">Sobre</a></li>
                     </ul>
                     <form class="d-flex justify-content-center w-100" role="search">
@@ -72,7 +72,7 @@
     <footer class="bg-light text-dark mt-5 pt-5 pb-3">
         <div class="container">
             <div class="text-center mb-4">
-                <a href="/" class="d-inline-block">
+                <a href="/dashboard" class="d-inline-block">
                     <img src="/img/logo3.png" alt="Logo Carros Brasil" class="img-logo">
                 </a>
             </div>

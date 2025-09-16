@@ -48,7 +48,7 @@
                 <input type="date" name="data_nascimento" class="form-control is-invalid" placeholder="Data de Nascimento não informado">
                 @endif
             </div>
-            <button type="submit" id="btn-confirmar" class="btn btn-success mt-3 w-25">Confirmar edição</button>
+            <button type="submit" id="btn-confirmar" class="btn btn-success mt-3 w-50">Confirmar edição</button>
         </form>
     </div>
 </div>

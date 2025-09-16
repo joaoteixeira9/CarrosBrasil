@@ -7,7 +7,7 @@
                 <i class="bi bi-cart-fill display-2 mb-3 text-danger"></i>
                 <h5 class="fw-bold mb-3">Compras</h5>
                 <p>Explore os melhores carros disponíveis para compra.</p>
-                <button class="btn btn-danger btn-lg mt-3">Entrar</button>
+                <a href="carros/compras/compras"><button class="btn btn-danger btn-lg mt-3 w-100">Entrar</button></a>
             </div>
         </div>
         <div class="col-md-4">
